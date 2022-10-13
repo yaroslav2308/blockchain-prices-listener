@@ -6,3 +6,7 @@ node_modules/
 
 # MacOs
 .DS_Store
+
+# package
+package-lock.json
+package.json
