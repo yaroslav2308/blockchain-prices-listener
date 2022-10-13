@@ -12,7 +12,7 @@ async function main() {
 
     let latestBlock = await provider.getBlockNumber()
 
-    console.log(latestBlock)
+    console.log("Number of latest block:", latestBlock)
     const contractUsdt = new ethers.Contract(addressUsdt, abiUsdt, provider)
     const contractDai = new ethers.Contract(addressDai, abiDai, provider)
 

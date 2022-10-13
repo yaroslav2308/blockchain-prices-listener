@@ -19,7 +19,7 @@ async function main() {
 
     // getting latest block number
     let latestBlock = await provider.getBlockNumber()
-    console.log(latestBlock)
+    console.log("Number of latest block:", latestBlock)
     
     // creating instances of agregator contracts
     const contractEthUsdAgregator = new ethers.Contract(addressEthUsdOracleAgregator, abiEhtUsd, provider)
