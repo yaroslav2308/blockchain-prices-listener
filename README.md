@@ -6,14 +6,10 @@ It is blockchain listener written in JavaScript to check if price of pairs (ETH/
 First of all you have to create your own blockchain archive node using [Alchemy](https://www.alchemy.com/). And then save key from Alchemy node.
 
 ## Installation
-Create directory where you would like to install project
-```bash
-mkdir blockchainListener
-cd blockchainListener
-```
 Use `git clone` command to install project locally
 ```bash
 git clone https://github.com/yaroslav2308/blockchain-prices-listener
+cd blockchain-prices-listener
 ```
 Initialize Node project
 ```bash
