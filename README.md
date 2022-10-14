@@ -77,7 +77,7 @@ Now script is listening blockchain for events from contracts, which represents p
 That's it!
 
 ## Additional
-Because oracles update prices rarely, waiting time might take up to few hours. So if you want to make sure that everything is working fine, you could run `listenerUsdtDai.js` which is listening for USDT and DAI transactions
+Because oracles update prices rarely, waiting time might take up to few hours. So if you want to make sure that everything is working fine, you could run `listenerUsdtDai.js` which is listening for USDT and DAI transactions. Functionality is the same
 ```bash
 node listenerUsdtDai.js
 ```
