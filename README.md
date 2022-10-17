@@ -84,9 +84,9 @@ node listenerUsdtDai.js
 After number of latest block information you have to see USDT and DAI transactions information 
 ```json
 {
-   "from": "0xA9D1e08C7793af67e9d92fe308d5697FB81d3E43",
-   "to": "0x74c22a172A2654Fdbc6d9df95C5f8a8F08fbC7B1",
-   "value": "640777071655654320.585848"
+   "from": "0x5DAe671a7C83FeD1606B2A1E95b948Ea1F0121Cd",
+   "to": "0x2FAF487A4414Fe77e2327F0bf4AE2a264a776AD2",
+   "value": "46.0"
 }
-##################DAI##################
+##################USDT##################
 ```
