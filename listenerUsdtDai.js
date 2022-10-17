@@ -30,7 +30,7 @@ async function main() {
         let info = {
             from: src,
             to: dst,
-            value: ethers.utils.formatUnits(wad, 6),
+            value: ethers.utils.formatUnits(wad, 18),
         }
         console.log(JSON.stringify(info, null, 3));
         console.log("##################DAI##################")
