@@ -6,14 +6,10 @@ It is blockchain listener written in JavaScript to check if price of pairs (ETH/
 First of all you have to create your own blockchain archive node using [Alchemy](https://www.alchemy.com/). And then save key from Alchemy node.
 
 ## Installation
-Create directory where you would like to install project
-```bash
-mkdir blockchainListener
-cd blockchainListener
-```
 Use `git clone` command to install project locally
 ```bash
 git clone https://github.com/yaroslav2308/blockchain-prices-listener
+cd blockchain-prices-listener
 ```
 Initialize Node project
 ```bash
@@ -81,7 +77,7 @@ Now script is listening blockchain for events from contracts, which represents p
 That's it!
 
 ## Additional
-Because oracles update prices rarely, waiting time might take up to few hours. So if you want to make sure that everything is working fine, you could run `listenerUsdtDai.js` which is listening for USDT and DAI transactions
+Because oracles update prices rarely, waiting time might take up to few hours. So if you want to make sure that everything is working fine, you could run `listenerUsdtDai.js` which is listening for USDT and DAI transactions. Functionality is the same
 ```bash
 node listenerUsdtDai.js
 ```
